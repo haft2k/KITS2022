@@ -1,14 +1,10 @@
 package EX6dang3;
 
-
 public class Main {
 
 	public static void main(String[] args) {
-		int[] arr = { 5, 1, 9, 10, 16, 4, 6, 8, 3 };
-		// for (int i = 0; i < arr.length; i++) {
-		// arr[i] = (int) (Math.random() * 100 + 1);
-		// }
-		// System.out.println("Array = " + Arrays.toString(arr));
+		// [2, 34, 36, 38], [36, 96, 98, 100]
+		int[] arr = { 3, 85, 2, 34, 36, 38, 26, 14, 29, 1, 12, 201, 36, 96, 98, 100, 2, 31 };
 
 		int maxLength = 0, count = 0, lastIndex = 0; // A[0]
 
